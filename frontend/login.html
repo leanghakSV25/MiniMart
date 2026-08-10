@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MiniMark Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-card">
+    <h1>Welcome Back</h1>
+    <p>Please login to your account</p>
+    <form id="loginForm">
+      <input id="email" type="email" placeholder="Email" value="admin@example.com" required>
+      <input id="password" type="password" placeholder="Password" value="admin123" required>
+      <button type="submit" class="primary">Login</button>
+    </form>
+    <p id="loginMessage"></p>
+    <small>For first use, register an account using POST /api/auth/register.</small>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>

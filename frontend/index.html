@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MiniMark - Mini Mart System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">MiniMark</div>
+      <div class="brand-sub">Mini Mart System</div>
+      <nav>
+        <button data-page="dashboard">Dashboard</button>
+        <button data-page="pos">POS / Checkout</button>
+        <button data-page="products">Products</button>
+        <button data-page="inventory">Stock / Inventory</button>
+        <button data-page="purchases">Purchases</button>
+        <button data-page="suppliers">Suppliers</button>
+        <button data-page="customers">Customer</button>
+        <button data-page="reports">Reports</button>
+        <button data-page="expenses">Expenses</button>
+        <button data-page="employees">Employees</button>
+        <button data-page="settings">Settings</button>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>Search</div>
+        <div class="user">Super Admin <button id="logout">Logout</button></div>
+      </header>
+
+      <section id="page"></section>
+    </main>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
